@@ -4,7 +4,7 @@
   "description": "ابزار تبدیل تصاویر به فرمت WebP",
   "main": "image-converter.js",
   "scripts": {
-    "convert": "node image-converter.js",
+    "convert": "node image-converter.js ./images",
     "convert:60": "node image-converter.js ./images 60",
     "convert:80": "node image-converter.js ./images 80"
   },
