@@ -17,7 +17,7 @@ A lightweight Node.js tool to convert JPG, JPEG, and PNG images to WebP format w
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/webp-image-converter.git
+git clone https://github.com/Mirsalari-dev/image-optimizer.git
 cd webp-image-converter
 
 # Install dependencies
@@ -106,7 +106,7 @@ MIT License
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/webp-image-converter/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Mirsalari-dev/image-optimizer/issues).
 
 ## 💖 Acknowledgements
 
