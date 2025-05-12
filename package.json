@@ -1,17 +1,39 @@
 {
-  "name": "webp-image-converter",
+  "name": "webp-image-optimizer",
   "version": "1.0.0",
-  "description": "ابزار تبدیل تصاویر به فرمت WebP",
-  "main": "image-converter.js",
-  "scripts": {
-    "convert": "node image-converter.js ./images",
-    "convert:60": "node image-converter.js ./images 60",
-    "convert:80": "node image-converter.js ./images 80"
+  "description": "A tool for converting and optimizing images to WebP format",
+  "main": "lib/index.js",
+  "bin": {
+    "webp-optimizer": "bin/cli.js"
   },
-  "keywords": ["webp", "image", "converter", "optimization"],
+  "scripts": {
+    "convert": "node bin/cli.js ./images",
+    "convert:60": "node bin/cli.js ./images 60",
+    "convert:80": "node bin/cli.js ./images 80"
+  },
+  "keywords": [
+    "webp",
+    "image",
+    "converter",
+    "optimization",
+    "compress"
+  ],
   "author": "Amirhossein Mirsalari",
   "license": "MIT",
   "dependencies": {
     "sharp": "^0.34.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mirsalari-dev/image-optimizer.git"
   }
 }

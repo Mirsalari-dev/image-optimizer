@@ -1,0 +1,36 @@
+# Development files
+.git
+.github
+.gitignore
+.vscode
+.idea
+*.log
+*.tmp
+*.temp
+
+# Test files
+test/
+tests/
+__tests__/
+coverage/
+
+# Source maps
+*.map
+
+# Configuration files
+.eslintrc*
+.prettierrc*
+.editorconfig
+tsconfig.json
+webpack.config.js
+
+# Documentation
+docs/
+examples/
+demo/
+
+# Original image-converter script
+image-converter.js
+
+# Images for testing
+images/ 
