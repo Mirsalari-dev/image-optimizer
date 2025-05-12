@@ -1,0 +1,17 @@
+{
+  "name": "webp-image-converter",
+  "version": "1.0.0",
+  "description": "ابزار تبدیل تصاویر به فرمت WebP",
+  "main": "image-converter.js",
+  "scripts": {
+    "convert": "node image-converter.js",
+    "convert:60": "node image-converter.js ./images 60",
+    "convert:80": "node image-converter.js ./images 80"
+  },
+  "keywords": ["webp", "image", "converter", "optimization"],
+  "author": "Amirhossein Mirsalari",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.34.1"
+  }
+}
